@@ -198,4 +198,8 @@ bindsym $mod+Control+j workspace prev
 
 assign [class="discord"] comms
 assign [class="teams-for-linux"] comms
+
 exec_always i3-msg "exec discord; exec teams-for-linux"
+
+bindsym $mod+Ctrl+greater move workspace to output right
+bindsym $mod+Ctrl+less move workspace to output left
